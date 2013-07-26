@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lsp_model_Driver" items="${drivers}" z="E2kLCJfbabYM7ltAOB+GOwzMDgQ=">
+        <table:table data="${drivers}" id="l_com_lsp_model_Driver" path="/drivers" z="dj+j60UCprUajI7apUdjcGKUaVQ=">
+            <table:column id="c_com_lsp_model_Driver_licence" property="licence" z="tOLAD4g0oI4kcK83N+23vzKckXI="/>
+        </table:table>
+    </page:list>
+</div>

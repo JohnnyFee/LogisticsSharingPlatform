@@ -1,0 +1,46 @@
+{
+    "name": "sencha",
+    "settings": {},
+    "xdsVersion": "2.2.1",
+    "xdsBuild": 951,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000500,
+    "framework": "touch22",
+    "topInstanceFileMap": {
+        "2b793b4c-1390-4025-a05a-aee0ba0a34ae": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "c16b83b8-aebf-4f7b-85b1-c911185e6d00": {
+            "paths": [
+                "metadata/view/Main",
+                "app/view/override/Main.js",
+                "app/view/Main.js"
+            ],
+            "className": "Main"
+        },
+        "80f739b1-f13b-49ef-b20a-b56d7579a5a0": {
+            "paths": [
+                "metadata/resource/js"
+            ],
+            "className": "js"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "c16b83b8-aebf-4f7b-85b1-c911185e6d00"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "2b793b4c-1390-4025-a05a-aee0ba0a34ae",
+            "80f739b1-f13b-49ef-b20a-b56d7579a5a0"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

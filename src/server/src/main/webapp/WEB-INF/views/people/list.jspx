@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lsp_model_Person" items="${people}" z="5dH6Yy6WyYsbISUshdrH+mJRkro=">
+        <table:table data="${people}" id="l_com_lsp_model_Person" path="/people" z="1rtO+/CAJ2HObU0KqQmiNbJm5hg=">
+            <table:column id="c_com_lsp_model_Person_age" property="age" z="zWulyAI2+vc9z3rByC/l29i1WQU="/>
+            <table:column id="c_com_lsp_model_Person_email" property="email" z="Uo9qW0m3NWDXZeuhyGdlRO0NwZc="/>
+            <table:column id="c_com_lsp_model_Person_password" property="password" z="v6sFbEwsvVNynWj1gjGsy6r8fyU="/>
+            <table:column id="c_com_lsp_model_Person_name" property="name" z="xEcXRdpxXMpOnsg8Phs4X5hmxSw="/>
+            <table:column id="c_com_lsp_model_Person_idCardNumber" property="idCardNumber" z="bfQINEy7HaeCBY+GifeNu7c4+Hg="/>
+            <table:column id="c_com_lsp_model_Person_sex" property="sex" z="4xdGcawF+WJ1xGHS6q8jFoi/cbA="/>
+        </table:table>
+    </page:list>
+</div>

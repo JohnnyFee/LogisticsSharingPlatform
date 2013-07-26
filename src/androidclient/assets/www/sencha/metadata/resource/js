@@ -1,0 +1,13 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "app/util/Echo.js",
+        "id": "Echo"
+    },
+    "designerId": "80f739b1-f13b-49ef-b20a-b56d7579a5a0"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lsp_model_transportation_Commodity" object="${commodity}" path="/commoditys" z="bKgX5sMdmbT/10RcxwRUT9yOttM=">
+        <field:display field="name" id="s_com_lsp_model_transportation_Commodity_name" object="${commodity}" z="fJUJphhnwkR7DMppNsbc0EsRva4="/>
+        <field:display field="unit" id="s_com_lsp_model_transportation_Commodity_unit" object="${commodity}" z="DHB8uk9eD6qQppW3rffQVrMXXrU="/>
+        <field:display field="provider" id="s_com_lsp_model_transportation_Commodity_provider" object="${commodity}" z="AUkoHbxUL0s63svpdnvLcaGzIdc="/>
+        <field:display field="location" id="s_com_lsp_model_transportation_Commodity_location" object="${commodity}" z="oFTOof6rV7cmbjHXzRPsnY/tbCY="/>
+    </page:show>
+</div>

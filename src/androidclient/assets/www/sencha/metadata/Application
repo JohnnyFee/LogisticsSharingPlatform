@@ -1,0 +1,79 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "views": [
+            "Main"
+        ],
+        "name": "lsp"
+    },
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "Ext.Loader",
+            "reference": {
+                "name": "loader",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "paths": [
+                    "{ 'Ext': 'touch/src',\r",
+                    "  'lsp': 'app'\r",
+                    "}"
+                ],
+                "designer|userClassName": "Loader47",
+                "designer|displayName": "Loader"
+            },
+            "designerId": "3ff04f73-3a95-4662-9a03-186e869222f4"
+        },
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "launch",
+                "fn": "launch",
+                "implHandler": [
+                    " // Destroy the #appLoadingIndicator element\r",
+                    "Ext.fly('appLoadingIndicator').destroy();\r",
+                    "\r",
+                    "// Initialize the main view\r",
+                    "Ext.Viewport.add(Ext.create('lsp.view.Main'));"
+                ]
+            },
+            "designerId": "7ce95569-23e9-41bd-abd6-98e24376bc33"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onUpdated",
+                "fn": "onUpdated",
+                "implHandler": [
+                    " Ext.Msg.confirm(\r",
+                    "            \"Application Update\",\r",
+                    "            \"This application has just successfully been updated to the latest version. Reload now?\",\r",
+                    "            function(buttonId) {\r",
+                    "                if (buttonId === 'yes') {\r",
+                    "                    window.location.reload();\r",
+                    "                }\r",
+                    "            }\r",
+                    "        );"
+                ]
+            },
+            "designerId": "41589b5d-a796-47cf-8bf6-189a10da53e5"
+        }
+    ]
+}
