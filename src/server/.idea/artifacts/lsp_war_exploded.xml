@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lsp:war exploded">
+    <output-path>$PROJECT_DIR$/target/lsp-0.1.0.BUILD-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="lsp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lsp" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
