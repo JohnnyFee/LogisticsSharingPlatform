@@ -14,4 +14,8 @@ web mvc all --package com.lsp.web
 jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
 jpa setup --provider HIBERNATE --database mysql
 jpa setup --provider HIBERNATE --database mysql --databaseName  lsp
-// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-08-17 13:19:13
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-08-17 13:24:55
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-08-17 13:25:52
+download status
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-08-17 22:21:42
