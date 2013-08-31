@@ -1,6 +1,0 @@
-[7596:7872:0417/113020:48677553:ERROR:proxy_resolver_winhttp.cc(94)] WinHttpGetProxyForUrl failed: 12167
-[7596:976:0417/113036:48693777:ERROR:proxy_resolver_winhttp.cc(94)] WinHttpGetProxyForUrl failed: 12167
-[7596:6100:0417/134724:56902721:ERROR:render_widget_host_impl.cc(1839)] We seem to have a different key type sent from the renderer. (7 vs. 10). Ignoring event.
-[7596:6100:0417/134724:56902753:ERROR:render_widget_host_impl.cc(1836)] Got a KeyEvent back from the renderer but we don't seem to have sent it to the renderer!
-[7596:6100:0417/134725:56902987:ERROR:render_widget_host_impl.cc(1836)] Got a KeyEvent back from the renderer but we don't seem to have sent it to the renderer!
-[7596:6100:0417/181323:72862310:ERROR:window_impl.cc(55)] Failed to unregister class Chrome_WidgetWin_0. Error = 1412
