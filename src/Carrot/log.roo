@@ -4,3 +4,8 @@ project --topLevelPackage com.jf.carrot --projectName Carrot --java 6 --packagin
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-01 09:50:21
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-01 09:52:34
 jpa setup --provider HIBERNATE --database MYSQL 
+exit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-01 11:29:08
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-01 13:40:50
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-01 15:04:07
+service all --interfacePackage com.lsp.repository
