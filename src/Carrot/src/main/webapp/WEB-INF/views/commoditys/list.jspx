@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lsp_model_transportation_Commodity" items="${commoditys}" z="wCUBpr+NVA5eS1Nk1J9mGVuQe5k=">
+        <table:table data="${commoditys}" id="l_com_lsp_model_transportation_Commodity" path="/commoditys" z="TlMWRFuoNTTMvEXLm0UiAdROZL0=">
+            <table:column id="c_com_lsp_model_transportation_Commodity_name" property="name" z="8wov47E43ODDVuTyhsO98pbEcW4="/>
+            <table:column id="c_com_lsp_model_transportation_Commodity_unit" property="unit" z="pR/nprLYSnluP+qC70cm0nv/Uig="/>
+            <table:column id="c_com_lsp_model_transportation_Commodity_provider" property="provider" z="jEp23CJryd7lMzSDwB5Ba6WjF1g="/>
+            <table:column id="c_com_lsp_model_transportation_Commodity_location" property="location" z="aAIJ8+QgAfC4OikM/LRXe7FSkHA="/>
+        </table:table>
+    </page:list>
+</div>

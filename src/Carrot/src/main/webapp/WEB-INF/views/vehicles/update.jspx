@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_lsp_model_transportation_Vehicle" modelAttribute="vehicle" path="/vehicles" versionField="Version" z="NrQKktiE/v4bpl+LURtDbibVSoo=">
+        <field:input field="length" id="c_com_lsp_model_transportation_Vehicle_length" z="ZUVbu4GtXT8lYKBUpWOcpqVJShI="/>
+        <field:select field="status" id="c_com_lsp_model_transportation_Vehicle_status" items="${vehiclestatuses}" path="vehiclestatuses" z="FkuJZs7pKRoRu3tdmJ4ThCRg5gg="/>
+        <field:input field="plateNumber" id="c_com_lsp_model_transportation_Vehicle_plateNumber" z="LB22K674vAU6xfl+KmlXoDEjRZk="/>
+        <field:select field="driver" id="c_com_lsp_model_transportation_Vehicle_driver" itemValue="id" items="${drivers}" path="/drivers" z="k8AFEgYKUdyU8mSUTKy1VPVTMwA="/>
+        <field:select field="type" id="c_com_lsp_model_transportation_Vehicle_type" items="${vehicletypes}" path="vehicletypes" z="s+l24ywA/6E4FW2mlJG+KOcyUN4="/>
+    </form:update>
+</div>
