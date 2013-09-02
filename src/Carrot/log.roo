@@ -1,11 +1,4 @@
-// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-01 09:49:19
-project --topLevelPackage com.jf.carrot --projectName Carrot --java 6 --packaging WAR
-// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-01 09:49:20
-// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-01 09:50:21
-// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-01 09:52:34
-jpa setup --provider HIBERNATE --database MYSQL 
-exit
-// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-01 11:29:08
-// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-01 13:40:50
-// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-01 15:04:07
-service all --interfacePackage com.lsp.repository
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 22:24:45
+project --topLevelPackage com.jf.lsp --projectName carrot --java 7 --packaging WAR
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-02 22:24:46
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 22:25:38
