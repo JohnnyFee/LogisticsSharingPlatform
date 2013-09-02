@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_jf_lsp_model_localtion_Location" object="${location}" path="/locations" z="Y8P+tkPUQxf6RCqz2Dpkf40KaPk=">
+        <field:display field="privince" id="s_com_jf_lsp_model_localtion_Location_privince" object="${location}" z="dOTMa4W+LDz8+04YR/lfeeTXbo0="/>
+        <field:display field="city" id="s_com_jf_lsp_model_localtion_Location_city" object="${location}" z="/vWeJYqPI2voC4KmQLsjo2mW5mg="/>
+        <field:display field="region" id="s_com_jf_lsp_model_localtion_Location_region" object="${location}" z="MvrvRXB2T5OVyTvwxjtMB30psVU="/>
+        <field:display field="street" id="s_com_jf_lsp_model_localtion_Location_street" object="${location}" z="iCey+r/VP3RWPbptqdIwrsg2/r4="/>
+    </page:show>
+</div>

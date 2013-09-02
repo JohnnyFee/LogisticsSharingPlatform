@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_jf_lsp_model_transportation_CommodityProvider" modelAttribute="commodityProvider" path="/commodityproviders" versionField="Version" z="nHsmKznzJaYw7iZRaqVv1vafFUA=">
+        <field:input field="companyName" id="c_com_jf_lsp_model_transportation_CommodityProvider_companyName" z="JDkPrBJil96kC5IA+YtZvtWsc/8="/>
+        <field:input field="contactName" id="c_com_jf_lsp_model_transportation_CommodityProvider_contactName" z="MdFVDv8E2o+yXIlHmaeq6N7D1vY="/>
+        <field:input field="telephoneNumber" id="c_com_jf_lsp_model_transportation_CommodityProvider_telephoneNumber" z="MAkL6waHGPjS6UNCm6OBL077Pmk="/>
+        <field:input field="mobilePhoneNumber" id="c_com_jf_lsp_model_transportation_CommodityProvider_mobilePhoneNumber" z="2AFz5utPtscHDOFRiIAR0SyTp4M="/>
+    </form:update>
+</div>

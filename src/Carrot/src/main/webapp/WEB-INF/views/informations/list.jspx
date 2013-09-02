@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_jf_lsp_model_transportation_Information" items="${informations}" z="UJC9dQsk+iWFfHhpthbLp4zJfsU=">
+        <table:table data="${informations}" id="l_com_jf_lsp_model_transportation_Information" path="/informations" z="UpNfEA/daGb1AugiUakTXGFtRkg=">
+            <table:column id="c_com_jf_lsp_model_transportation_Information_fromArea" property="fromArea" z="RrxL7kUO0garQSa/ua+sfLGFslQ="/>
+            <table:column id="c_com_jf_lsp_model_transportation_Information_toArea" property="toArea" z="SKP0WhDDWrQux9wGCQT8vnokcRU="/>
+            <table:column id="c_com_jf_lsp_model_transportation_Information_commodity" property="commodity" z="odASC9FumDpTFG6hdX+N6FFe6WE="/>
+            <table:column id="c_com_jf_lsp_model_transportation_Information_commodityQuantity" property="commodityQuantity" z="y0gCGofHSS16oUIcqa3G5xN7Ojg="/>
+            <table:column id="c_com_jf_lsp_model_transportation_Information_vehicleLength" property="vehicleLength" z="47cyTNZWhl1cfo+0KxqO8EogvC0="/>
+            <table:column id="c_com_jf_lsp_model_transportation_Information_vehicleType" property="vehicleType" z="9I4PfKY0DENQi/TNgKPUmCo0x3Y="/>
+        </table:table>
+    </page:list>
+</div>

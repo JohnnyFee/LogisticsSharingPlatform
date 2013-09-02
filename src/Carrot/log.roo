@@ -2,3 +2,24 @@
 project --topLevelPackage com.jf.lsp --projectName carrot --java 7 --packaging WAR
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-02 22:24:46
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 22:25:38
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 22:26:36
+jpa setup --provider ECLIPSELINK --database H2_IN_MEMORY
+jpa setup --provider HIBERNATE  --database MYSQL 
+entity jpa --class ~.domain.Topping --activeRecord false --testAutomatically
+field string --fieldName name --sizeMin 2
+repository jpa --interface ~.repository.ToppingRepository --entity ~.domain.Topping
+service type --interface ~.service.ToppingService --entity ~.domain.Topping
+hel pweb mvc embed
+help pweb mvc embed
+help web mvc embed
+help web mvc json
+web mvc setup
+jpa setup --provider ECLIPSELINK --database H2_IN_MEMORY
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 22:50:31
+help web mvc controller
+help web mvc all
+web mvc all --package com.jf.lsp
+// [failed] web mvc all --package com.jf.lsp.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 22:54:52
+// [failed] web mvc all --package com.jf.lsp.web
+// [failed] web mvc all --package com.jf.lsp
