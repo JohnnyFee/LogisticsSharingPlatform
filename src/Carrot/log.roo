@@ -1,5 +1,5 @@
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 22:24:45
-project --topLevelPackage com.jf.lsp --projectName carrot --java 7 --packaging WAR
+project --topLevelPackage com.jf.carrot --projectName carrot --java 7 --packaging WAR
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-02 22:24:46
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 22:25:38
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 22:26:36
@@ -18,8 +18,15 @@ jpa setup --provider ECLIPSELINK --database H2_IN_MEMORY
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 22:50:31
 help web mvc controller
 help web mvc all
-web mvc all --package com.jf.lsp
-// [failed] web mvc all --package com.jf.lsp.web
+web mvc all --package com.jf.carrot
+// [failed] web mvc all --package com.jf.carrot.web
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 22:54:52
-// [failed] web mvc all --package com.jf.lsp.web
-// [failed] web mvc all --package com.jf.lsp
+// [failed] web mvc all --package com.jf.carrot.web
+// [failed] web mvc all --package com.jf.carrot
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-02 23:14:25
+exit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-02 23:14:28
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-03 21:22:18
+exit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-03 21:30:15
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-03 21:30:19

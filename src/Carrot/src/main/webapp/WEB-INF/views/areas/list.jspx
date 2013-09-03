@@ -2,10 +2,10 @@
 <div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <page:list id="pl_com_jf_lsp_model_localtion_Area" items="${areas}" z="ZV4DF9pWHNKNwsHofVUkG/iTnUw=">
-        <table:table data="${areas}" id="l_com_jf_lsp_model_localtion_Area" path="/areas" z="NZ9Vl8ZofFrLVPFvAPARDemR70M=">
-            <table:column id="c_com_jf_lsp_model_localtion_Area_name" property="name" z="cCUBZdcAskaaYA3qVM0AFpaVhnQ="/>
-            <table:column id="c_com_jf_lsp_model_localtion_Area_code" property="code" z="vGoM3kH6UVYpHA4mlyRwCnZP2KE="/>
+    <page:list id="pl_com_jf_carrot_model_localtion_Area" items="${areas}" z="xBBR7CnJr7Rp5QalVmr0QP8R/WQ=">
+        <table:table data="${areas}" id="l_com_jf_carrot_model_localtion_Area" path="/areas" z="2nmNCDsaOctufW2vRMMCHpVT8c8=">
+            <table:column id="c_com_jf_carrot_model_localtion_Area_name" property="name" z="Rh1M9j9ulUSlm+u9i5zbVWxs1qg="/>
+            <table:column id="c_com_jf_carrot_model_localtion_Area_code" property="code" z="Mf5DkV4RR+vwCe/QRom0sLUeSno="/>
         </table:table>
     </page:list>
 </div>

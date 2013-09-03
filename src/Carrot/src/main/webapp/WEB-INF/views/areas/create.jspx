@@ -2,9 +2,9 @@
 <div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <form:create id="fc_com_jf_lsp_model_localtion_Area" modelAttribute="area" path="/areas" render="${empty dependencies}" z="sFAOB4A/UjtLELQb4PKH+/XYNYw=">
-        <field:input field="name" id="c_com_jf_lsp_model_localtion_Area_name" z="QY8Ycl++I/Nx9UeO+jkgMDeMdKg="/>
-        <field:input field="code" id="c_com_jf_lsp_model_localtion_Area_code" z="eRnMxqFAbivPKqiY8yhoq2hztvY="/>
+    <form:create id="fc_com_jf_carrot_model_localtion_Area" modelAttribute="area" path="/areas" render="${empty dependencies}" z="wl7aeUMgiRia81ect6sEjv38Q24=">
+        <field:input field="name" id="c_com_jf_carrot_model_localtion_Area_name" z="vuDGUij/DPG4FpA5Q2oq7Kyb1SY="/>
+        <field:input field="code" id="c_com_jf_carrot_model_localtion_Area_code" z="eUqn03Yc1qGSXveCFjb5YFzPw9g="/>
     </form:create>
-    <form:dependency dependencies="${dependencies}" id="d_com_jf_lsp_model_localtion_Area" render="${not empty dependencies}" z="NDuoE6ksTydAjEIMcVFcv3K0m3E="/>
+    <form:dependency dependencies="${dependencies}" id="d_com_jf_carrot_model_localtion_Area" render="${not empty dependencies}" z="nuVcrjZFhd1wgeRBz5p3hQlQQ9s="/>
 </div>

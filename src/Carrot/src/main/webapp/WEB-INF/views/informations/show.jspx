@@ -2,22 +2,22 @@
 <div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_com_jf_lsp_model_transportation_Information" object="${information}" path="/informations" z="enk9RQ4zp0TPdMuysymbu2vmbsU=">
-        <field:display field="fromArea" id="s_com_jf_lsp_model_transportation_Information_fromArea" object="${information}" z="pInOimj/t7uqCMp01K4KcAj7PBs="/>
-        <field:display field="toArea" id="s_com_jf_lsp_model_transportation_Information_toArea" object="${information}" z="pfO8+cuvRFpkV8nB9gJ5ORnMY4U="/>
-        <field:display field="commodity" id="s_com_jf_lsp_model_transportation_Information_commodity" object="${information}" z="q1sMVWI5FUW7qK+iMUZgNsw3tf4="/>
-        <field:display field="commodityQuantity" id="s_com_jf_lsp_model_transportation_Information_commodityQuantity" object="${information}" z="gtByNJXj3DbTI5TI2v+7FNGr0MQ="/>
-        <field:display field="vehicleLength" id="s_com_jf_lsp_model_transportation_Information_vehicleLength" object="${information}" z="dGRqJ3XmvvqtZKegS8g+V4LjrYc="/>
-        <field:display field="vehicleType" id="s_com_jf_lsp_model_transportation_Information_vehicleType" object="${information}" z="7VCyB8ugTyMzRjbiAC7+7NF5g5k="/>
-        <field:display field="freight" id="s_com_jf_lsp_model_transportation_Information_freight" object="${information}" z="dcXEX/uwWIIqBNZVFP2oPkvc/6s="/>
-        <field:display field="freightUnit" id="s_com_jf_lsp_model_transportation_Information_freightUnit" object="${information}" z="mmErU67oZv7GGd3/2pPheTi+ck8="/>
-        <field:display field="freightComment" id="s_com_jf_lsp_model_transportation_Information_freightComment" object="${information}" z="RpuUfFKlxiK1MdzrF0IJwEVnPbA="/>
-        <field:display field="vehicleCount" id="s_com_jf_lsp_model_transportation_Information_vehicleCount" object="${information}" z="R3SeZ+YZBdNLQqrGOH4krQuZ434="/>
-        <field:display field="content" id="s_com_jf_lsp_model_transportation_Information_content" object="${information}" z="+5ABiexBOZ92I34dZJ1bgnUlLtg="/>
-        <field:display field="telephoneNumber" id="s_com_jf_lsp_model_transportation_Information_telephoneNumber" object="${information}" z="SmpSIX3r88vm/r5gKEL4u8baBtc="/>
-        <field:display field="mobilePhoneNumber" id="s_com_jf_lsp_model_transportation_Information_mobilePhoneNumber" object="${information}" z="kbDOE/jy+GwhbE4ypbxfGQC3EJU="/>
-        <field:display date="true" dateTimePattern="${information_createdate_date_format}" field="createDate" id="s_com_jf_lsp_model_transportation_Information_createDate" object="${information}" z="HFo/vLD0SLe0x+OqNwrTSPdjvzw="/>
-        <field:display date="true" dateTimePattern="${information_lastmodifydate_date_format}" field="lastModifyDate" id="s_com_jf_lsp_model_transportation_Information_lastModifyDate" object="${information}" z="Ms1LrAfURbGkAmmTOHAzYDGEc/A="/>
-        <field:display field="status" id="s_com_jf_lsp_model_transportation_Information_status" object="${information}" z="wp1J6LIhQ2r7RxybbB+tf2TUkkg="/>
+    <page:show id="ps_com_jf_carrot_model_transportation_Information" object="${information}" path="/informations" z="3JYPBblrDxPsSSUAPfrXBllrtLE=">
+        <field:display field="fromArea" id="s_com_jf_carrot_model_transportation_Information_fromArea" object="${information}" z="UFmJLJrWWhHJV7WoXd36deUcXp4="/>
+        <field:display field="toArea" id="s_com_jf_carrot_model_transportation_Information_toArea" object="${information}" z="pPzNANknNNrbeSwMVudSby8Akx8="/>
+        <field:display field="commodity" id="s_com_jf_carrot_model_transportation_Information_commodity" object="${information}" z="BgwU+QyeebF14hzSHxsNw/8+OUo="/>
+        <field:display field="commodityQuantity" id="s_com_jf_carrot_model_transportation_Information_commodityQuantity" object="${information}" z="qx8GR/Z5alkw3K3KX9qnhke5/Ps="/>
+        <field:display field="vehicleLength" id="s_com_jf_carrot_model_transportation_Information_vehicleLength" object="${information}" z="3z5fys7SriGemaU40cBkBBKqZ5c="/>
+        <field:display field="vehicleType" id="s_com_jf_carrot_model_transportation_Information_vehicleType" object="${information}" z="cDVhrBZ1Pzv3EVBuMvtO57fkScg="/>
+        <field:display field="freight" id="s_com_jf_carrot_model_transportation_Information_freight" object="${information}" z="ZdHqeRsOw6Agycljk3F+5a3vf98="/>
+        <field:display field="freightUnit" id="s_com_jf_carrot_model_transportation_Information_freightUnit" object="${information}" z="Y1XDhPw1kH2D9Fa+CehI//Gy8Iw="/>
+        <field:display field="freightComment" id="s_com_jf_carrot_model_transportation_Information_freightComment" object="${information}" z="fqijFaevicCSTyAsauinIoUY+4c="/>
+        <field:display field="vehicleCount" id="s_com_jf_carrot_model_transportation_Information_vehicleCount" object="${information}" z="OE4h/ItD4v9p0cZCb0cTrExXPHk="/>
+        <field:display field="content" id="s_com_jf_carrot_model_transportation_Information_content" object="${information}" z="nxmd3REaNiGkZRK2FoBRKmPqrv0="/>
+        <field:display field="telephoneNumber" id="s_com_jf_carrot_model_transportation_Information_telephoneNumber" object="${information}" z="TBpm5Hk/Da6dhYlVZFBm9EcT+x0="/>
+        <field:display field="mobilePhoneNumber" id="s_com_jf_carrot_model_transportation_Information_mobilePhoneNumber" object="${information}" z="3A/K22iQNC2qKQeFo2+jujMf2oY="/>
+        <field:display date="true" dateTimePattern="${information_createdate_date_format}" field="createDate" id="s_com_jf_carrot_model_transportation_Information_createDate" object="${information}" z="qn014IerGfKjENA2VSmHXZntOd8="/>
+        <field:display date="true" dateTimePattern="${information_lastmodifydate_date_format}" field="lastModifyDate" id="s_com_jf_carrot_model_transportation_Information_lastModifyDate" object="${information}" z="kyO0gIfT+n2rl/k3gY2ZcYf7RDM="/>
+        <field:display field="status" id="s_com_jf_carrot_model_transportation_Information_status" object="${information}" z="rcGVc27RRALF+L37+hg5VWsOBqQ="/>
     </page:show>
 </div>

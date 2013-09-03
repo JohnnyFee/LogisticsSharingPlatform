@@ -2,12 +2,12 @@
 <div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_com_jf_lsp_model_Person" object="${person}" path="/people" z="RM6S50na9EajR7qdvHKYNpvVaco=">
-        <field:display field="age" id="s_com_jf_lsp_model_Person_age" object="${person}" z="Xy4K3g5UVWszQbyT8LzbfaEvQzs="/>
-        <field:display field="email" id="s_com_jf_lsp_model_Person_email" object="${person}" z="j6jt9b4HXgsrLHw/HOEP6j8LvbQ="/>
-        <field:display field="password" id="s_com_jf_lsp_model_Person_password" object="${person}" z="eovNsW3G1Fd5Ka3K8vikcfknGXw="/>
-        <field:display field="name" id="s_com_jf_lsp_model_Person_name" object="${person}" z="i45yP0GM+7CDAaqTKoTd133yF+U="/>
-        <field:display field="idCardNumber" id="s_com_jf_lsp_model_Person_idCardNumber" object="${person}" z="VDBjTkFQuxRMv1yx/yKommYlLt8="/>
-        <field:display field="sex" id="s_com_jf_lsp_model_Person_sex" object="${person}" z="H25jxUrpWJjHhs4eRoBob9b+AYo="/>
+    <page:show id="ps_com_jf_carrot_model_Person" object="${person}" path="/people" z="ILJJV1qBr1hC7AsAQRLaO9MinqM=">
+        <field:display field="age" id="s_com_jf_carrot_model_Person_age" object="${person}" z="V/FAQ7XMbDB+KGRR5YWajghZMws="/>
+        <field:display field="email" id="s_com_jf_carrot_model_Person_email" object="${person}" z="BAtl4ZE4zEBeKygmgmalMLMAjmo="/>
+        <field:display field="password" id="s_com_jf_carrot_model_Person_password" object="${person}" z="39/Kzagb92zbW6R21Yprh1BbXt4="/>
+        <field:display field="name" id="s_com_jf_carrot_model_Person_name" object="${person}" z="uRZJS+1dtQ8k0zrqHYuTM5dFFnE="/>
+        <field:display field="idCardNumber" id="s_com_jf_carrot_model_Person_idCardNumber" object="${person}" z="NsDZEXLlfZVGuGlLOmcQbzT3L5E="/>
+        <field:display field="sex" id="s_com_jf_carrot_model_Person_sex" object="${person}" z="KumV83fyXdBBhwfXTSRlcgii2wE="/>
     </page:show>
 </div>

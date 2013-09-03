@@ -2,22 +2,22 @@
 <div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <form:update id="fu_com_jf_lsp_model_transportation_Information" modelAttribute="information" path="/informations" versionField="Version" z="1GXpOzFhuvyIk3bpXwVxrzDREfE=">
-        <field:select field="fromArea" id="c_com_jf_lsp_model_transportation_Information_fromArea" itemValue="id" items="${locations}" path="/locations" z="MU0iYX8P1AxAqWVGhotczsLckiE="/>
-        <field:select field="toArea" id="c_com_jf_lsp_model_transportation_Information_toArea" itemValue="id" items="${locations}" path="/locations" z="cfAs5E55xI65IM3SxOmzfw8uAgU="/>
-        <field:select field="commodity" id="c_com_jf_lsp_model_transportation_Information_commodity" itemValue="id" items="${commoditys}" path="/commoditys" z="JcvgsnTKVVfEXNCJ4VglhHnfqyA="/>
-        <field:input field="commodityQuantity" id="c_com_jf_lsp_model_transportation_Information_commodityQuantity" z="xYuDWKvfQpvp6M7vTLhRLCS+Los="/>
-        <field:input field="vehicleLength" id="c_com_jf_lsp_model_transportation_Information_vehicleLength" z="N7YFJwLXtKxrqgcClP+x8bFShl8="/>
-        <field:input field="vehicleType" id="c_com_jf_lsp_model_transportation_Information_vehicleType" z="55oI9ivLzpCbUyAXLKWylt27H1s="/>
-        <field:input field="freight" id="c_com_jf_lsp_model_transportation_Information_freight" z="YVgY3WlOC74hdMuKhYse+7/8Fxw="/>
-        <field:input field="freightUnit" id="c_com_jf_lsp_model_transportation_Information_freightUnit" z="vRWPHsVQEjHSqaHYQ52JsPBDKnE="/>
-        <field:input field="freightComment" id="c_com_jf_lsp_model_transportation_Information_freightComment" z="XoLvBHSkQ652t585aoZyjQrYCls="/>
-        <field:input field="vehicleCount" id="c_com_jf_lsp_model_transportation_Information_vehicleCount" z="EWtqkrMJZr2JvyscBUVm5hCoPu0="/>
-        <field:input field="content" id="c_com_jf_lsp_model_transportation_Information_content" z="dSG+fzAY77iZCGf0doS80ml6zLY="/>
-        <field:input field="telephoneNumber" id="c_com_jf_lsp_model_transportation_Information_telephoneNumber" z="O8sPQ9wo55/lF8IB2Q09acqWHzo="/>
-        <field:input field="mobilePhoneNumber" id="c_com_jf_lsp_model_transportation_Information_mobilePhoneNumber" z="iddUDrJIGMbsbA3Eob9t927ENRc="/>
-        <field:datetime dateTimePattern="${information_createdate_date_format}" field="createDate" id="c_com_jf_lsp_model_transportation_Information_createDate" z="0SqmB3SXRfJT8R6wW+a6D69Rjz4="/>
-        <field:datetime dateTimePattern="${information_lastmodifydate_date_format}" field="lastModifyDate" id="c_com_jf_lsp_model_transportation_Information_lastModifyDate" z="j340ptftdz176IiQPUypqrbf/as="/>
-        <field:select field="status" id="c_com_jf_lsp_model_transportation_Information_status" items="${informationstatuses}" path="informationstatuses" z="97PeCtjG2zLnnkIPZ3SEv3v0+dw="/>
+    <form:update id="fu_com_jf_carrot_model_transportation_Information" modelAttribute="information" path="/informations" versionField="Version" z="p21b7T3TboTphZjUJKc71oJn5uA=">
+        <field:select field="fromArea" id="c_com_jf_carrot_model_transportation_Information_fromArea" itemValue="id" items="${locations}" path="/locations" z="dkjEtbMNG2uwGAgiN3liXIiY8GY="/>
+        <field:select field="toArea" id="c_com_jf_carrot_model_transportation_Information_toArea" itemValue="id" items="${locations}" path="/locations" z="uXkMjC0Vc+rEjHxrTjRz2A+iGiI="/>
+        <field:select field="commodity" id="c_com_jf_carrot_model_transportation_Information_commodity" itemValue="id" items="${commoditys}" path="/commoditys" z="QFXXsswj4fveqCJnsJ7xMt3jTDs="/>
+        <field:input field="commodityQuantity" id="c_com_jf_carrot_model_transportation_Information_commodityQuantity" z="Ff8N0AsaOI8UFp2ZReaA20toCYc="/>
+        <field:input field="vehicleLength" id="c_com_jf_carrot_model_transportation_Information_vehicleLength" z="/U7mGcs7otQwbjiGMmFJP0PQ0EU="/>
+        <field:input field="vehicleType" id="c_com_jf_carrot_model_transportation_Information_vehicleType" z="nVVfIqjqKOtuO9oe0hBOY9iJGyo="/>
+        <field:input field="freight" id="c_com_jf_carrot_model_transportation_Information_freight" z="3sx3OoZ9rByDt7Ege6QkbCeDLvc="/>
+        <field:input field="freightUnit" id="c_com_jf_carrot_model_transportation_Information_freightUnit" z="I43H+X19qJKZrhM3spzCRcoGHak="/>
+        <field:input field="freightComment" id="c_com_jf_carrot_model_transportation_Information_freightComment" z="YsrYl9kKbpZ55q8VoATdVaqGN5Y="/>
+        <field:input field="vehicleCount" id="c_com_jf_carrot_model_transportation_Information_vehicleCount" z="SQoRk4RWDL6+DHBMdTIiR1Z9f2w="/>
+        <field:input field="content" id="c_com_jf_carrot_model_transportation_Information_content" z="0+yL0xVacNGRb2qw/zRKFiGL51c="/>
+        <field:input field="telephoneNumber" id="c_com_jf_carrot_model_transportation_Information_telephoneNumber" z="HF+8GxRmzj1HN90zg3FBRW6nG4I="/>
+        <field:input field="mobilePhoneNumber" id="c_com_jf_carrot_model_transportation_Information_mobilePhoneNumber" z="GQCfRjwUBlru4s/8ysqwGfmCxWQ="/>
+        <field:datetime dateTimePattern="${information_createdate_date_format}" field="createDate" id="c_com_jf_carrot_model_transportation_Information_createDate" z="iXDwQ0qDSgJXhNOKyLXRvSyKFPA="/>
+        <field:datetime dateTimePattern="${information_lastmodifydate_date_format}" field="lastModifyDate" id="c_com_jf_carrot_model_transportation_Information_lastModifyDate" z="giNyIAFZ1pAWgcdJy5Mz1sxvmyc="/>
+        <field:select field="status" id="c_com_jf_carrot_model_transportation_Information_status" items="${informationstatuses}" path="informationstatuses" z="dU3+JdL4Mf3P5CCNmTuMBsekJdo="/>
     </form:update>
 </div>
