@@ -30,3 +30,9 @@ exit
 exit
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-03 21:30:15
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-03 21:30:19
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-03 23:06:17
+help addon create i18n
+help web mvc language
+web mvc language --code en
+web mvc language --code it
+web mvc language --code it
