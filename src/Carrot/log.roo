@@ -35,4 +35,7 @@ help addon create i18n
 help web mvc language
 web mvc language --code en
 web mvc language --code it
-web mvc language --code it
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-05 23:05:05
+web mvc language --code sv
+exit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-05 23:24:40
