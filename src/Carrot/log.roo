@@ -49,3 +49,9 @@ help mvn language
 help web mvc language
 exit
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-25 13:39:41
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-25 23:03:22
+osgi start --url file:///D:/temp/spring-roo-addon-i18n-chinese-read-only/repo/com/ccb/roo/addon/i18/com.ccb.roo.addon.i18/0.1.0.BUILD/com.ccb.roo.addon.i18-0.1.0.BUILD.jar/org.rooinaction.addons.i18n.norwegian-0.1.0.BUILD-SNAPSHOT.jar
+osgi start --url file:///D:/temp/spring-roo-addon-i18n-chinese-read-only/repo/com/ccb/roo/addon/i18/com.ccb.roo.addon.i18/0.1.0.BUILD/com.ccb.roo.addon.i18-0.1.0.BUILD.jar
+web mvc language --code zh
+exi
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-25 23:36:29

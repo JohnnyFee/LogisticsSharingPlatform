@@ -26,6 +26,7 @@
   <util:language label="English" locale="en"/>
     <util:language label="Italiano" locale="it"/>
     <util:language label="Svenska" locale="sv"/>
+    <util:language label="Simple_Chinese" locale="zh"/>
     </span>
   <util:theme/>
 
